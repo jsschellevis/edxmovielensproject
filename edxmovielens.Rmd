@@ -1,7 +1,7 @@
 ---
 title: "MovieLens Capstone Project"
 author: "Jebbe Schellevis"
-date: "4 September 2021"
+date: "6 September 2021"
 output:
   pdf_document: default
   html_document: default
@@ -30,6 +30,8 @@ opts_chunk$set(echo = TRUE)
 ```
 
 ```{r load_data, include=FALSE}
+
+# NOTE: this markup file relies on a prepared data file. In case this is not available, run the edxmovielens.r script # to generate the data file.
 
 # Load data for project from rdata file
 load("data.RData")
